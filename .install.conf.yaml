@@ -12,8 +12,16 @@
     ~/.dotfiles: ''
     ~/.gitconfig:
     ~/.gitignore_global:
+    ~/.shell:
     ~/.tmux.conf:
     ~/.zsh:
     ~/.zshrc:
 
-- shell: []
+- shell:
+    - git submodule sync --recursive
+    # the following have to run after linking ~/.gitconfig
+    - git submodule update --init --recursive
+    - >
+      git clean -fdx
+      emacs.d/vendor/
+      vim/pack/vendor/start/

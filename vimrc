@@ -186,7 +186,8 @@ set nofoldenable
 syntax enable  " keeps my settings
 
 " Enable 256 colors palette
-" NOTE: set by shell env var: TERM
+" NOTE: UNCOMMENT IF COLOR SCHEME LOOKS WRONG
+" NOTE: should be set by env var: TERM
 "set t_Co=256
 
 set background=dark

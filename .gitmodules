@@ -2,3 +2,73 @@
 	path = .dotbot
 	url = https://github.com/anishathalye/dotbot
 	ignore = dirty
+[submodule "ale"]
+	path = vim/pack/vendor/start/ale
+	url = https://github.com/dense-analysis/ale.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/nerdcommenter"]
+	path = vim/pack/vendor/start/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/nerdtree"]
+	path = vim/pack/vendor/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/tagbar"]
+	path = vim/pack/vendor/start/tagbar
+	url = https://github.com/preservim/tagbar.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/undotree"]
+	path = vim/pack/vendor/start/undotree
+	url = https://github.com/mbbill/undotree.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-airline"]
+	path = vim/pack/vendor/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-easymotion"]
+	path = vim/pack/vendor/start/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-fugitive"]
+	path = vim/pack/vendor/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-signature"]
+	path = vim/pack/vendor/start/vim-signature
+	url = https://github.com/kshenoy/vim-signature.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-surround"]
+	path = vim/pack/vendor/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/vim-gitgutter"]
+	path = vim/pack/vendor/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/start/fzf.vim"]
+	path = vim/pack/vendor/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/gruvbox"]
+	path = vim/pack/vendor/opt/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+	ignore = untracked
+	shallow=true
+[submodule "vim/pack/vendor/copilot.vim"]
+	path = vim/pack/vendor/opt/copilot.vim
+	url = https://github.com/github/copilot.vim
+	ignore = untracked
+	shallow=true

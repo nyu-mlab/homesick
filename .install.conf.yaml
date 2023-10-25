@@ -3,7 +3,11 @@
         create: true
         relink: true
 
-- clean: []
+- create:
+    '~/.ssh':
+        mode: 0700
+
+- clean: ['~', '~/.config']
 
 - link:
     ~/.bash:

@@ -1,0 +1,27 @@
+name: Test installation
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 10 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p ~/dotfiles-install-dir
+      - run: |
+          HOME=~/dotfiles-install-dir ./install

@@ -72,3 +72,8 @@
 	url = https://github.com/github/copilot.vim
 	ignore = untracked
 	shallow=true
+[submodule "vim/pack/vendor/start/rust.vim"]
+	path = vim/pack/vendor/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
+	ignore = untracked
+	shallow=true

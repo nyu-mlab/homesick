@@ -14,21 +14,13 @@
     ~/.bash_profile:
     ~/.bashrc:
     ~/.dotfiles: ''
-    ~/.emacs.d:
-    ~/.emacs:
     ~/.gitconfig:
     ~/.gitignore_global:
     ~/.shell:
     ~/.tmux.conf:
-    ~/.vim:
-    ~/.vimrc:
     ~/.zsh:
     ~/.zshrc:
 
 - shell:
     - git submodule sync --recursive
     - git submodule update --init --recursive
-    - >
-      git clean -f
-      emacs.d/vendor/
-      vim/pack/vendor/start/

@@ -363,6 +363,8 @@ nnoremap <Leader>gf       :BCommits <CR>
 " => [ Git history of All files ]: Git commits
 nnoremap <Leader>ga       :Commits  <CR>
 " command! -bar GitStatus :GFiles?
+" => [ Search buffers ]
+nnoremap <Leader>b        :Buffers  <CR>
 
 " pkg:: NERDTree
 nnoremap <C-t> :NERDTreeToggle <CR>

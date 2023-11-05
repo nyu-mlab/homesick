@@ -82,8 +82,3 @@
 	url = https://github.com/cespare/vim-toml.git
 	ignore = untracked
 	shallow=true
-[submodule "vim/pack/vendor/start/todo-comments.nvim"]
-	path = vim/pack/vendor/start/todo-comments.nvim
-	url = https://github.com/folke/todo-comments.nvim.git
-	ignore = untracked
-	shallow=true

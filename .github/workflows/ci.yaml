@@ -25,4 +25,4 @@ jobs:
           mkdir -p ~/dotfiles-install-dir
       - run: |
           HOME=~/dotfiles-install-dir ./install
-        timeout-minutes: 10
+        timeout-minutes: 1

@@ -7,5 +7,5 @@ alias mv='mv -i'
 
 alias ip='ip --color=auto'
 
-which -s fd > /dev/null
+which fd > /dev/null
 [[ $? -ne 0 ]] && alias fd='fdfind'
